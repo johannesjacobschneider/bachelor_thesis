@@ -9,7 +9,7 @@ Durchführung und Implementierung sowie technischen Analyse von Hackback-Strateg
 
 # Nutzung
 
-Die bereitgestellten Ressourcen sind für Forschungszwecke gedacht und sollen ein besseres Verständnis der Komplexität und Herausforderungen von Hackback-Strategien vermitteln. Bitte beachten Sie, dass der Einsatz solcher Strategien in der Praxis streng geregelt ist und erhebliche rechtliche Konsequenzen nach sich ziehen kann.
+Die bereitgestellten Ressourcen sind für Forschungszwecke gedacht und sollen ein besseres Verständnis der Komplexität und Herausforderungen von Hackback-Strategien vermitteln. Bitte beachten Sie, dass der Einsatz solcher Strategien in der Praxis streng geregelt ist und erhebliche rechtliche Konsequenzen nach sich ziehen kann. Daher werden nur Auszüge des verwendeten Quellcodes dargestellt und jegliche Umgebungen mit HTTP-Authentifizierungen abgesichert. Zugang zu den Umgebungen kann an der unten stehenden Kontaktadresse angefragt werden.
 
 # Haftungsausschluss
 
