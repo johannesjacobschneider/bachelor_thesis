@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><meta charset="UTF-8">
+	<title>Sicherheits&uuml;berpr&uuml;fung erforderlich</title>
+	<style type="text/css">.header_blue {
+            background-color: #003366;
+            padding: 20px;
+        }
+
+        .header_white {
+            background-color: #ffffff;
+            padding: 10px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .button {
+            background-color: #0056b3;
+            border: none;
+            color: white !important;
+            padding: 8px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            border-radius: 2px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #004494;
+            color: white;
+        }
+
+        .header {
+            color: #0056b3;
+            font-size: 16px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            font-weight: bold;
+            border-bottom: 2px solid #eee;
+        }
+
+        img.logo {
+            display: block;
+            margin: 0px;
+            width: 185px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            font-size: 14px;
+        }
+
+        .container_content {
+            padding-bottom: 0px;
+            padding-left: 10px;
+        }
+        .container_content {
+            padding-top: 5px;
+            padding-left: 10px;
+            background-color: #fff;
+        }
+	</style>
+</head>
+<body>
+<header class="header_blue">&nbsp;</header>
+
+<div class="header_white">
+<div class="container_header"><img alt="VR Bank Logo" class="logo" src="https://www.vrbankeg.de/content/dam/f0858-0/Bilder/System/Logo%20450x50.png" /></div>
+</div>
+
+<div class="container_content">
+<p class="header">Guten Tag {{.FirstName}} {{.LastName}},</p>
+
+<p>wir haben in den letzten Tagen ungew&ouml;hnliche Aktivit&auml;ten in unserem Netzwerk festgestellt, die m&ouml;glicherweise auch Ihr Konto betreffen k&ouml;nnten.<br />
+Als vorbeugende Ma&szlig;nahme ist es unerl&auml;sslich, dass Sie an einer dringenden Sicherheits&uuml;berpr&uuml;fung teilnehmen, um den Schutz Ihrer pers&ouml;nlichen<br />
+und finanziellen Informationen sicherzustellen.</p>
+
+<p><strong>Warum ist diese &Uuml;berpr&uuml;fung notwendig?</strong><br />
+Unsere j&uuml;ngsten Sicherheitsberichte zeigen, dass es Versuche gab, auf Kundendaten unbefugt zuzugreifen. Um Ihre Identit&auml;t zu best&auml;tigen und sicherzustellen,<br />
+dass kein unbefugter Zugriff auf Ihr Konto erfolgt ist, ist eine sofortige &Uuml;berpr&uuml;fung erforderlich.</p>
+
+<p><strong>Wie k&ouml;nnen Sie handeln?</strong><br />
+Bitte klicken Sie auf den untenstehenden Link, um Ihre Kontodaten zu &uuml;berpr&uuml;fen. Es ist wichtig, dass Sie diese &Uuml;berpr&uuml;fung so schnell wie m&ouml;glich durchf&uuml;hren,<br />
+um potenzielle Risiken zu minimieren und die Sicherheit Ihres Kontos zu gew&auml;hrleisten.</p>
+
+<p>Die &Uuml;berpr&uuml;fung nimmt nur wenige Minuten in Anspruch und ist ein wichtiger Schritt zum Schutz Ihrer pers&ouml;nlichen Informationen. Bitte beachten Sie, dass diese<br />
+&Uuml;berpr&uuml;fung innerhalb der n&auml;chsten 48 Stunden durchgef&uuml;hrt werden muss, um eventuelle Einschr&auml;nkungen Ihres Kontozugangs zu vermeiden.</p>
+
+<p>Wir verstehen, dass Sicherheit f&uuml;r Sie von h&ouml;chster Priorit&auml;t ist und danken Ihnen im Voraus f&uuml;r Ihre schnelle Reaktion.</p>
+
+<p>Bei Fragen oder wenn Sie Unterst&uuml;tzung ben&ouml;tigen, z&ouml;gern Sie nicht, uns zu kontaktieren.</p>
+<a class="button" href="{{.URL}}">Konto&uuml;berpr&uuml;fung durchf&uuml;hren</a>
+
+<p>Mit freundlichen Gr&uuml;&szlig;en,</p>
+
+<p>Ihre Volksbanken Raiffeisenbanken Team</p>
+</div>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
