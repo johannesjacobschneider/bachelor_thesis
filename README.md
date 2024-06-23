@@ -16,7 +16,7 @@ Die bereitgestellten Ressourcen sind für Forschungszwecke gedacht und sollen ei
 Die Inhalte dieses Repositories dienen ausschließlich Bildungs- und Forschungszwecken. Jegliche Nutzung des Codes oder der beschriebenen Methoden erfolgt auf eigene Gefahr. Der Autor übernimmt keine Haftung für Schäden oder rechtliche Konsequenzen, die aus der Nutzung dieser Materialien entstehen können.
 
 # Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Der Code darf für wissenschaftliche Zwecke mit einer Referenzierung weiterverwendet werden. Sollten noch Fragen dazu aufkommen, wende Dich an den folgenden Kontakt.
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Der Code darf für wissenschaftliche Zwecke mit einer Referenzierung weiterverwendet werden. Sollten noch Fragen dazu aufkommen, wenden Sie sich an den folgenden Kontakt.
 
 # Kontakt
 Ergänzungen, Anregungen oder offene Fragen können via E-Mail an johannes.schneider@study.thws.de adressiert werden.
