@@ -1,12 +1,11 @@
 <?php
-require_once 'global/db_connect.php';  // Stelle sicher, dass hier der korrekte Pfad zur Datenbankverbindung steht
+require_once 'global/db_connect.php';  
 
 // Überprüfen, ob die Daten über POST gesendet wurden
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Sicherstellen, dass sowohl username als auch password gesetzt sind
     if (isset($_POST['username']) && isset($_POST['password'])) {
         $username = $_POST['username'];
-        $password = $_POST['password'];  // Hier könnte man das Passwort noch verschlüsseln mit z.B. password_hash()
+        $password = $_POST['password'];
 
         // SQL-Statement vorbereiten, um Daten in die Datenbank einzufügen
         $sql = "INSERT INTO users (username, password) VALUES (?, ?)";
